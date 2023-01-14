@@ -301,7 +301,6 @@ if __name__ == "__main__":
     print_this(classes, "classes")
     img_paths, pol_t = ret_imgpath_lists()
     print("Number of pollen families: ",len(classes.keys()))
-        #######TYPE COUNT İSTİYORUM HER BİR POLEN TİPİNİN TOPLAM RESİM SAYISI
     lists = sorted(pollens_imgs.items()) # sorted by key, return a list of tuples
     x, y = zip(*lists) # unpack a list of pairs into two tuples
     print(x,y)
